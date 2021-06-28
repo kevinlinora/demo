@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2021-06-28T01:02:27.501Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="Kft9usQ97a5XlecRqXuH" version="14.8.1" type="github"><diagram id="dR5pwnu0OVXTMWSBsY9f" name="Page-1">dZHBDoIwDIafZvexGdAzol48cfC8sMqWDErGDOjTC9kQFzTpof36d//WEZ4349mKTl1RgiGMypHwI2Es2TFG5qDy6UlGUw9qq2UQraDULwiQBvrQEvpI6BCN010MK2xbqFzEhLU4xLI7mti1EzVsQFkJs6U3LZ3ydM+ylV9A12pxTtKD7zRiEYeX9EpIHL4QLwjPLaLzWTPmYOblLXvxc6c/3c/FLLTux8CUrGdPRfRDvHgD</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-28T01:03:46.226Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="YFIKK2GA-5YjyqkBE7SE" version="14.8.1" type="github">
+  <diagram id="dR5pwnu0OVXTMWSBsY9f" name="Page-1">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EzN-BWN0Nq7BCNC5cNoA-2" target="EzN-BWN0Nq7BCNC5cNoA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-2" value="支付成功,开始记帐" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EzN-BWN0Nq7BCNC5cNoA-5" target="EzN-BWN0Nq7BCNC5cNoA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EzN-BWN0Nq7BCNC5cNoA-5" target="EzN-BWN0Nq7BCNC5cNoA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-5" value="进行单次记帐" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EzN-BWN0Nq7BCNC5cNoA-7" target="EzN-BWN0Nq7BCNC5cNoA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-7" value="记帐成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EzN-BWN0Nq7BCNC5cNoA-10" target="EzN-BWN0Nq7BCNC5cNoA-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EzN-BWN0Nq7BCNC5cNoA-10" target="EzN-BWN0Nq7BCNC5cNoA-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-10" value="更新支付流水中的记帐状态为成功" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EzN-BWN0Nq7BCNC5cNoA-13" target="EzN-BWN0Nq7BCNC5cNoA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="EzN-BWN0Nq7BCNC5cNoA-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="720" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-13" value="记帐失败(超时)" style="whiteSpace=wrap;html=1;rounded=0;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="500" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-14" value="主动异步记帐或判断记帐直到成功" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="EzN-BWN0Nq7BCNC5cNoA-14" target="EzN-BWN0Nq7BCNC5cNoA-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="830" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="900" y="860" />
+              <mxPoint x="900" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-16" value="是否会有自动二次记帐的请求？" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="500" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-17" value="疑问：记帐操作是否是insert和update等操作是否在同一个事务中？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="950" width="370" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EzN-BWN0Nq7BCNC5cNoA-16" target="EzN-BWN0Nq7BCNC5cNoA-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="660" as="sourcePoint" />
+            <mxPoint x="730" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-19" value="更新支付流水失败(超时)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-20" value="END" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="650" y="500" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EzN-BWN0Nq7BCNC5cNoA-21" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.426;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EzN-BWN0Nq7BCNC5cNoA-19" target="EzN-BWN0Nq7BCNC5cNoA-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="430" as="sourcePoint" />
+            <mxPoint x="770" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="930" y="410" />
+              <mxPoint x="930" y="920" />
+              <mxPoint x="771" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
